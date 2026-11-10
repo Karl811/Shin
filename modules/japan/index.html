@@ -4695,7 +4695,9 @@ document.addEventListener('pointerdown', function(e){ if($('#toast').classList.c
 
 
 
-/* Shin du ký integration: shared profile and return navigation only. */
+/* Shin du ký integration: shared profile and return button at the end of Settings only. */
+var sdkSettingsOriginal=nbSettings;
+nbSettings=function(){return sdkSettingsOriginal.apply(this,arguments)+ShinHub.homeButton();};
 ShinHub.mount({id:'japan',get:function(){return S;},save:function(){save(true);},render:function(){render(false);},teachers:TEACHERS,demo:function(){return KEY.indexOf('demo')>=0;}});
 
 /* khởi động */

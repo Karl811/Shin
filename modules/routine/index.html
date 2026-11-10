@@ -3937,7 +3937,9 @@ if(window.PointerEvent){
    ========================================================= */
 load();
 
-/* Shin du ký integration: shared profile and return navigation only. */
+/* Shin du ký integration: shared profile and return button at the end of Settings only. */
+var sdkSettingsOriginal=nbSet;
+nbSet=function(){return sdkSettingsOriginal.apply(this,arguments)+ShinHub.homeButton();};
 ShinHub.mount({id:'routine',get:function(){return S;},save:function(){save(true);},render:function(){render(false);},teachers:TEACHERS,demo:function(){return DEMO;}});
 
 save();

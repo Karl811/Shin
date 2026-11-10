@@ -53,13 +53,10 @@
   connection=config;sync();
   if(!profile().name){location.replace(base.href+'?profile=1');return;}
   if(!config.demo())config.save();
-  document.addEventListener('DOMContentLoaded',()=>{
-   const bar=document.createElement('nav');bar.className='sdk-nav';bar.setAttribute('aria-label','Shin du ký');
-   bar.innerHTML='<a class="sdk-home" href="'+base.href+'">← Trang chủ</a><span>Shin du ký</span><a href="'+base.href+'?profile=1">Hồ sơ</a>';
-   document.body.dataset.sdkModule=config.id;
-   document.body.appendChild(bar);
-   bar.addEventListener('click',e=>{if(e.target.closest('a'))config.save();});
-  });
+  document.addEventListener('click',e=>{
+   if(!e.target.closest('[data-sdk-home]'))return;
+   e.preventDefault();config.save();location.assign(base.href);
+  },true);
   window.addEventListener('pageshow',e=>{if(e.persisted){sync();config.render();}});
   window.addEventListener('storage',e=>{
    if(e.key!==key('profile'))return;
@@ -67,9 +64,10 @@
    if(!/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName))config.render();
   });
  }
+ function homeButton(){return '<div class="sdk-return"><button type="button" data-sdk-home>← Quay lại trang chủ</button></div>';}
  function snapshot(){
   const keys=['profile','jpc-hp3-career-design-v19','nbdk-hp05','kzmn-data'];const data={};
   keys.forEach(k=>{const v=read(k);if(v)data[k]=v;});return {format:'shin-du-ky',version:1,exportedAt:new Date().toISOString(),data};
  }
- root.ShinHub={base:base.href,prefix,key,read,write,profile,setProfile,teachers,apply,extract,early,persist,mount,snapshot,sync};
+ root.ShinHub={base:base.href,prefix,key,read,write,profile,setProfile,teachers,apply,extract,early,persist,mount,snapshot,sync,homeButton};
 })(window);

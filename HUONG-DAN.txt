@@ -12,7 +12,7 @@ Không đổi tên các thư mục module hoặc đường dẫn tùy ý.
 2. CÁCH DÙNG
 - Ứng dụng tên Shin du ký, dùng biểu tượng con tàu Career Design.
 - Lần đầu nhập họ tên, lớp và năm sinh ở trang chủ. Mã học viên, giáo viên có thể bổ sung sau. Giới hạn tên/lớp phù hợp với ô nhập của các module gốc.
-- Chọn một trong ba hành trình. Mỗi module có thanh Trang chủ / Hồ sơ ở dưới. Các nút học có sẵn đã được nâng lên để không trùng thanh chung.
+- Chọn một trong ba hành trình. Để chuyển module: mở Sổ tay ở góc → chọn thẻ Cài đặt → cuộn xuống cuối → Quay lại trang chủ. Không có thanh điều hướng chung phủ lên màn hình học; các nút và khoảng cách của module giữ vị trí gốc.
 - Hồ sơ cập nhật trong một module được chia sẻ khi lưu; hồ sơ chung được áp dụng khi mở module khác. Điểm, câu trả lời, nhật ký và tiến độ mỗi module độc lập.
 - Mã học viên được dùng trong Career Design; hai module không có ô mã học viên vẫn giữ mã trong hồ sơ chung. Trường năm sinh được dùng trong Career Design và Nhật Bản Du Ký.
 - Các câu hỏi lên tàu/qua cổng, hướng dẫn học, chọn diện sang Nhật và điều kiện mở khóa vẫn giữ nguyên. Điền hồ sơ chung không tự hoàn thành các bước học này.

@@ -1,21 +1,21 @@
 {
   "app": "Shin du ký",
-  "release": "d8c60920ac5b",
+  "release": "1f76b8055bc7",
   "modules": [
     {
       "module": "career",
       "sourceSHA256": "9b1d3968e24b351c282f95c8b06e7f01960e2f37fd7bfcc69cdf062668f0c5b6",
-      "outputSHA256": "d97abd3f0153b6f8d14d893787053eec678b459e0f33f638a81372165d12db63"
+      "outputSHA256": "2a49ccda73dcfb85eb77c5613634f12c7fa370635adcc3b21690a2c9b8158824"
     },
     {
       "module": "japan",
       "sourceSHA256": "405238cded90cf211b981f5ade44365705c9daea962290967190feb8ab6ffbe4",
-      "outputSHA256": "72b5e48835202da8ce83c66d2a568782eb56bb5a01c06492d026392911c5d932"
+      "outputSHA256": "3a36f723a608f228f9662882e1cf9e62011dc9a25f501e0bec4ae5288e90e2a9"
     },
     {
       "module": "routine",
       "sourceSHA256": "f06f5248859a63d87542f05f1ed64afd002e511ab9e54825433f83c1761072be",
-      "outputSHA256": "32308a0df0be26af6e96b4f31ccfa3616edaa792e153c6cb9f79871ef012d018"
+      "outputSHA256": "57b041d0259d6e8054708b8f49762c8279535f5bd9ca86d92cf467fbf9d3f58d"
     }
   ],
   "changes": "PWA metadata, namespaced storage keys, profile load/save integration, shared navigation. Original source folders unchanged."

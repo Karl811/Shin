@@ -1,5 +1,5 @@
 'use strict';
-const BASE=new URL('./',self.location.href),PREFIX='shinduky:'+BASE.pathname+':',CACHE=PREFIX+'d8c60920ac5b';
+const BASE=new URL('./',self.location.href),PREFIX='shinduky:'+BASE.pathname+':',CACHE=PREFIX+'1f76b8055bc7';
 const FILES=["icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","index.html","manifest.webmanifest","modules/career/icons/apple-touch-icon.png","modules/career/icons/icon-192.png","modules/career/icons/icon-512.png","modules/career/index.html","modules/career/pwa.css","modules/japan/assets/street.webp","modules/japan/icons/app-192.png","modules/japan/icons/app-512.png","modules/japan/icons/app-icon.svg","modules/japan/icons/apple-touch-icon.png","modules/japan/icons/maskable-512.png","modules/japan/index.html","modules/japan/navigation.js","modules/japan/offline.html","modules/japan/pwa.css","modules/japan/street-game.css","modules/japan/street-game.js","modules/routine/icon-192.png","modules/routine/icon-512.png","modules/routine/index.html","shared/core.js","shared/home.css","shared/home.js","shared/module.css","shared/pwa.js"];
 const urls=FILES.map(f=>new URL(f,BASE).href);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(urls.map(u=>new Request(u,{cache:'reload'}))))));
