@@ -1,0 +1,12 @@
+/* Navigation shared by the three modules; no global course selectors. */
+.sdk-nav{position:fixed;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:58;display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:410px;margin:auto;padding:8px 12px;border:1px solid #D9E4FF;border-radius:16px;background:#F5F7FD;box-shadow:0 8px 28px #10193524;color:#3D4766;font:500 12px/1.5 'Be Vietnam Pro',system-ui,sans-serif}
+.sdk-nav a{color:#1D4ED8;text-decoration:none;padding:6px 4px;font-weight:700}.sdk-nav .sdk-home{font-size:13px}
+body{padding-bottom:calc(90px + env(safe-area-inset-bottom,0px))!important}
+body::after{pointer-events:none}
+body[data-sdk-module="routine"] .nav,body[data-sdk-module="routine"] .abar{bottom:calc(76px + env(safe-area-inset-bottom,0px))!important}
+body[data-sdk-module="routine"] .pages{bottom:64px!important}
+body[data-sdk-module="routine"] .toast{bottom:calc(156px + env(safe-area-inset-bottom,0px))!important}
+body[data-sdk-module="career"] .actbar,body[data-sdk-module="career"] .fb{bottom:calc(74px + env(safe-area-inset-bottom,0px))!important}
+body[data-sdk-module="career"] .tkread21{bottom:calc(76px + env(safe-area-inset-bottom,0px))!important}
+body[data-sdk-module="japan"] .toast,body[data-sdk-module="japan"] .tourbox{bottom:calc(76px + env(safe-area-inset-bottom,0px))!important}
+@media print{.sdk-nav{display:none!important}}

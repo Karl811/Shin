@@ -1,0 +1,22 @@
+{
+  "app": "Shin du ký",
+  "release": "d8c60920ac5b",
+  "modules": [
+    {
+      "module": "career",
+      "sourceSHA256": "9b1d3968e24b351c282f95c8b06e7f01960e2f37fd7bfcc69cdf062668f0c5b6",
+      "outputSHA256": "d97abd3f0153b6f8d14d893787053eec678b459e0f33f638a81372165d12db63"
+    },
+    {
+      "module": "japan",
+      "sourceSHA256": "405238cded90cf211b981f5ade44365705c9daea962290967190feb8ab6ffbe4",
+      "outputSHA256": "72b5e48835202da8ce83c66d2a568782eb56bb5a01c06492d026392911c5d932"
+    },
+    {
+      "module": "routine",
+      "sourceSHA256": "f06f5248859a63d87542f05f1ed64afd002e511ab9e54825433f83c1761072be",
+      "outputSHA256": "32308a0df0be26af6e96b4f31ccfa3616edaa792e153c6cb9f79871ef012d018"
+    }
+  ],
+  "changes": "PWA metadata, namespaced storage keys, profile load/save integration, shared navigation. Original source folders unchanged."
+}

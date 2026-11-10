@@ -1,0 +1,12 @@
+/* PWA chrome; course layout and content are untouched. */
+html{background:#F5F7FD!important}
+body::before{background:#F5F7FD!important;pointer-events:none}
+#cd49-install{position:fixed;z-index:2147483000;left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));bottom:calc(12px + env(safe-area-inset-bottom,0px));max-width:400px;margin:0 auto;padding:16px 18px;border:1px solid #D8DEEA;border-radius:18px;background:#F5F7FD;color:#101935;box-shadow:0 12px 40px #10193530;font:14px/1.6 system-ui,-apple-system,sans-serif;max-height:55vh;overflow:auto}
+#cd49-install[hidden]{display:none}
+#cd49-install h2{font-size:16px;margin:0 30px 8px 0}
+#cd49-install p{margin:8px 0}
+#cd49-install button{font:inherit;cursor:pointer;border:0;border-radius:10px;padding:9px 13px;background:#1D4ED8;color:white}
+#cd49-install .cd49-close{position:absolute;right:9px;top:7px;background:transparent;color:#3D4766;font-size:22px;padding:2px 10px}
+#cd49-install .cd49-later{background:transparent;color:#3D4766}
+#cd49-install .cd49-actions{display:flex;gap:8px;flex-wrap:wrap}
+@media print{#cd49-install{display:none!important}}

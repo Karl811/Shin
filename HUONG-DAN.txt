@@ -1,0 +1,49 @@
+SHIN DU KÝ — BỘ ĐƯA LÊN GITHUB
+
+1. GIẢI NÉN VÀ ĐƯA LÊN
+Giải nén Shin-du-ky-GitHub.zip. Mở thư mục Shin-du-ky-GitHub.
+Tạo repository, ví dụ shin-du-ky. Tải TOÀN BỘ NỘI DUNG bên trong thư mục lên gốc repository, giữ nguyên các thư mục shared, modules và icons. index.html phải ở ngay gốc.
+Không tải riêng file ZIP lên: GitHub không tự giải nén.
+Vào Settings → Pages → Deploy from a branch → main → /(root) → Save.
+Mở link HTTPS GitHub Pages cung cấp và gửi link này cho học viên.
+Không cần cài Node hoặc chạy build để dùng bộ GitHub đã tạo sẵn.
+Không đổi tên các thư mục module hoặc đường dẫn tùy ý.
+
+2. CÁCH DÙNG
+- Ứng dụng tên Shin du ký, dùng biểu tượng con tàu Career Design.
+- Lần đầu nhập họ tên, lớp và năm sinh ở trang chủ. Mã học viên, giáo viên có thể bổ sung sau. Giới hạn tên/lớp phù hợp với ô nhập của các module gốc.
+- Chọn một trong ba hành trình. Mỗi module có thanh Trang chủ / Hồ sơ ở dưới. Các nút học có sẵn đã được nâng lên để không trùng thanh chung.
+- Hồ sơ cập nhật trong một module được chia sẻ khi lưu; hồ sơ chung được áp dụng khi mở module khác. Điểm, câu trả lời, nhật ký và tiến độ mỗi module độc lập.
+- Mã học viên được dùng trong Career Design; hai module không có ô mã học viên vẫn giữ mã trong hồ sơ chung. Trường năm sinh được dùng trong Career Design và Nhật Bản Du Ký.
+- Các câu hỏi lên tàu/qua cổng, hướng dẫn học, chọn diện sang Nhật và điều kiện mở khóa vẫn giữ nguyên. Điền hồ sơ chung không tự hoàn thành các bước học này.
+- Giữ một học viên cho mỗi phiên trình duyệt/ứng dụng trên thiết bị. Đây chưa phải hệ thống đăng nhập hay đồng bộ đám mây.
+- Chế độ demo của giáo viên không ghi vào hồ sơ thật.
+
+3. CÀI LÊN ĐIỆN THOẠI
+Android: mở link bằng Chrome → Cài ứng dụng / menu ⋮ → Cài đặt ứng dụng hoặc Thêm vào màn hình chính.
+iPhone/iPad: Safari → Chia sẻ → Thêm vào Màn hình chính → bật Mở dưới dạng ứng dụng web nếu có → Thêm.
+Chỉ cài một ứng dụng Shin du ký; cả ba module nằm bên trong. Màu nền phần giao diện chung và theme-color là #F5F7FD. iOS quyết định cách hiển thị thanh trạng thái cuối cùng.
+Nếu Xiaomi báo cài rồi nhưng thiếu icon: kiểm tra danh sách ứng dụng, ứng dụng ẩn, quyền Lối tắt màn hình chính của Chrome trong Quyền khác nếu có; thử khởi động lại máy. Website không thể buộc màn hình chính đặt icon. Hộp hướng dẫn không khẳng định biểu tượng đã xuất hiện chỉ dựa vào tín hiệu của trình duyệt.
+Nên cài trước khi học. Dữ liệu có thể khác nhau giữa trình duyệt và ứng dụng, đặc biệt trên iPhone. Dùng sao lưu/khôi phục để chuyển bài.
+
+4. SAO LƯU VÀ KHÔI PHỤC
+Trang chủ → Sao lưu cả ba: tải một file JSON gồm hồ sơ chung và dữ liệu học thật của ba module đã dùng. Demo không nằm trong bản sao chung.
+Khôi phục: chọn đúng file sao lưu Shin du ký. Đóng các tab khóa học khác, sao lưu dữ liệu hiện tại trước khi xác nhận. Bản sao sẽ thay hồ sơ và dữ liệu cả ba module; module vắng trong bản sao trở về chưa học.
+Các tính năng sao lưu riêng của module vẫn được giữ. Khôi phục bản sao riêng có thể thay hồ sơ chung bằng thông tin của bản sao đó; kiểm tra lại tại trang chủ.
+Bộ mới dùng vùng lưu riêng, không tự lấy dữ liệu từ các ứng dụng/link cũ. Muốn chuyển bài cũ: sao lưu ở ứng dụng cũ, nhập hồ sơ chung, rồi vào module tương ứng để khôi phục bằng công cụ gốc; kiểm tra hồ sơ sau đó và tạo bản sao chung.
+Không xóa dữ liệu trình duyệt hoặc gỡ ứng dụng khi chưa sao lưu.
+
+5. NGOẠI TUYẾN VÀ CẬP NHẬT
+Sau lần tải có Internet và bộ nhớ đệm hoàn tất, phần HTML và Game Phố Phường nội bộ có thể dùng ngoại tuyến. Video, phông chữ Google, các trang liên kết, công cụ AI và thư viện xuất ảnh/PDF tải từ Internet vẫn cần mạng.
+Trình duyệt có thể thu hồi bộ nhớ đệm khi thiếu dung lượng. Ngoại tuyến không thay thế sao lưu.
+Khi có phiên bản mới, mở ứng dụng khi có mạng. Nếu có thông báo cập nhật, lưu bài, đóng mọi cửa sổ/tab Shin du ký rồi mở lại. Không tự tải lại giữa lúc học.
+Cập nhật bộ nhớ đệm không xóa bài làm hay hồ sơ.
+
+6. KIỂM TRA TRƯỚC KHI GỬI HỌC VIÊN
+Thử link GitHub thật trên Chrome Android và Safari iPhone: nhập hồ sơ, chuyển ba module, sửa lớp/giáo viên, đóng/mở lại, cài từ biểu tượng con tàu, sao lưu và mở ngoại tuyến sau khi tải xong.
+Bộ đã được kiểm tra mã, hồ sơ chung, cách tách dữ liệu, tài nguyên Game và thao tác điều hướng trên trình duyệt xem thử. Chưa triển khai lên GitHub của bạn và chưa xác minh cài đặt trên điện thoại thật.
+
+Tài liệu tham khảo:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+https://web.dev/learn/pwa/detection
+https://www.mi.com/uk/support/faq/details/KA-06943/
